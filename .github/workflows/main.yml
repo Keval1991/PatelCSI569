@@ -1,11 +1,11 @@
 name: Hello World
-On: [push]
+on: [push]
 
 jobs:
-  Build:
-    Runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
     
-    Steps:
-    -Name: Say Hello
-    Run: Echo "Hello, World!"
+    steps:
+    -name: Say Hello
+    run: echo "Hello, World!"
     
